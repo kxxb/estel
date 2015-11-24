@@ -935,5 +935,63 @@
             "faker",
             "yii2"
         ]
+    },
+    {
+        "name": "fxp/composer-asset-plugin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/francoispluchino/composer-asset-plugin.git",
+            "reference": "daca454b94539a4e6d30937dfc6b817eceb03f28"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/francoispluchino/composer-asset-plugin/zipball/daca454b94539a4e6d30937dfc6b817eceb03f28",
+            "reference": "daca454b94539a4e6d30937dfc6b817eceb03f28",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "composer/composer": "~1.0@dev"
+        },
+        "time": "2015-11-20 14:58:24",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Fxp\\Composer\\AssetPlugin\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Pluchino",
+                "email": "francois.pluchino@gmail.com"
+            }
+        ],
+        "description": "NPM/Bower Dependency Manager for Composer",
+        "homepage": "https://github.com/francoispluchino/composer-asset-plugin",
+        "keywords": [
+            "asset",
+            "bower",
+            "composer",
+            "dependency manager",
+            "nodejs",
+            "npm",
+            "package"
+        ]
     }
 ]
