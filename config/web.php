@@ -37,6 +37,18 @@ $config = [
                 ],
             ],
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+             'rules' => [
+                'site/login' => 'site/login',
+                'site/logout' => 'site/logout',
+                'site/error' => 'site/error',
+                
+
+                'loginsocial/<service:vkontakte|facebook|odnoklassniki>' => 'users/login',
+            ],
+        ],
         'db' => require(__DIR__ . '/db.php'),
         /*
         'urlManager' => [
